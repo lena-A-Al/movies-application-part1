@@ -1,0 +1,57 @@
+* {
+  background-color: rgb(229, 229, 221);
+  font-family: 'Times New', sans-serif;
+}
+
+div {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  flex-wrap: wrap; */
+  background-color: rgb(184, 181, 171);
+}
+.unorder-list {
+  display: flex;
+  border: 1px solid #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.title {
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: none;
+  color: blue;
+  position: center;
+}
+
+img {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: rgb(0, 128, 30);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* MovieDetails page: */
+
+li {
+  background-color: cornsilk;
+  font-size: 23px;
+  line-height: 1.5;
+}
