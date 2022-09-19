@@ -21,6 +21,11 @@ function moviesList(movies) {
     </head>
     <body>
         <header class="title"><img src="/images/movies.jpg"/>Movies List</header>
+        <form>
+          <input>
+          <button  onclick="myFunction()" id="submit-btn">submit</button>
+          <button>clear</button>
+        </form>
         ${allMovies}
     </body>
   </html>`;
